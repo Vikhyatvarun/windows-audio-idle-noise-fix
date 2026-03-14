@@ -65,4 +65,3 @@ By placing the file in startup folder, file will automaticly run when you log in
 ## License
 
 Free to use and modify.
-# windows-audio-idle-noise-fix
