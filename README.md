@@ -6,6 +6,17 @@ A tiny workaround for a Windows issue where speakers or headphones produce a **c
 
 These scripts keep the audio device active by playing **silent audio in the background**, preventing the hardware from entering an idle state that causes the noise.
 
+---
+
+## Quick Start
+
+1. Install FFmpeg
+2. Download or clone this repository
+3. Run silent.vbs
+
+That's it — the background silence will start and the idle noise should disappear.
+
+Stop it anytime by running stop_silence.vbs.
 
 ---
 
@@ -62,6 +73,13 @@ shell:startup
 3. Place `silent.vbs` in the folder.
 
 By placing the file in startup folder, file will automaticly run when you log in your device.
+
+---
+
+## How this help
+
+Some audio hardware produces noise when the output becomes idle.
+Playing digital silence keeps the audio device active so the noise disappears.
 
 ---
 
