@@ -1,10 +1,11 @@
 # Windows Audio Idle Noise Fix
 
-Fix for the Windows issue where speakers or headphones make a chirr / buzzing / static noise when idle, which disappears when audio starts playing.
+Fix for the Windows issue where speakers or headphones make a **chirr / buzzing / static noise when idle**, which disappears when audio starts playing.
 
-A tiny workaround for a Windows issue where speakers or headphones produce a chirr / buzzing / static noise when no audio is playing, but the noise stops when any sound starts.
+A tiny workaround for a Windows issue where speakers or headphones produce a **chirr / buzzing / static noise when no audio is playing**, but the noise stops when any sound starts.
 
-These scripts keep the audio device active by playing silent audio in the background, preventing the hardware from entering an idle state that causes the noise.
+These scripts keep the audio device active by playing **silent audio in the background**, preventing the hardware from entering an idle state that causes the noise.
+
 
 ---
 
